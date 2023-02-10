@@ -1,0 +1,41 @@
+.banner{
+    width: 100rem;
+    height: 256px;
+    object-fit: cover;
+     
+}
+
+.mainTitle{
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: center;
+
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    border-radius: 5%;
+    margin: 1rem;
+    text-align: center;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 179);
+    border-radius: 5%;
+    text-align: center;
+    margin: 1rem;
+}
+.proverbs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+

@@ -1,0 +1,22 @@
+.mainTitle{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+.bio{
+    display: flex;
+    justify-content:space-around;
+}
+.fastcar{
+    width: 256px;
+    height: 356px;
+    
+    border-radius: 13%;
+
+}
+

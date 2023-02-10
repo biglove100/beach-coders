@@ -1,0 +1,114 @@
+.banner{
+    width: 100rem;
+    height: 256px;
+    object-fit: cover;
+}
+.mainTitle{
+    color: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Aboreto', cursive;
+}
+.subMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: darkcyan;
+    border-radius: 5%;
+    text-align: center;
+    font-style: italic;
+    border-style: groove;
+}
+
+.box2{
+    width:  300px;
+    height: 300px;
+    background-color: lightseagreen;
+    border-radius: 5%;
+    text-align: center;
+    font-style: oblique;
+    border-style: groove;
+}
+
+
+
+.box4{
+    width: 500px;
+    height: 300px;
+    background-color:burlywood;
+    border-radius: 5%;
+    text-align: center;
+    border-style: groove;
+}
+
+
+.driving{
+    width: 400px;
+    height: 256px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.cars{
+    width: 400px;
+    height: 256px;
+    border-radius: 5%;
+}
+.mainForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.mainForm label{
+    margin-left: 3rem;
+}
+
+.socialNav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: cyan;
+}
+
+.backgroundBanner{
+    background-color: deepskyblue;
+    border-style: ridge;
+    border-color: black;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:864px) {
+    .subMenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1rem;
+        flex-direction: column;
+    }   
+    .mainTitle{
+        color: maroon;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Aboreto', cursive;
+        width: 100vw;
+    }
+}

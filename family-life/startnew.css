@@ -1,0 +1,24 @@
+.mainTitle{
+    color: blueviolet;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+.bio{
+    display: flex;
+    justify-content:space-around;
+}
+.eifel{
+    width: 256px;
+    height: 356px;
+
+    border-radius: 13%;
+}
+.rem{
+    font-size: larger;
+    
+}

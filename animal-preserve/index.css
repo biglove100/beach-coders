@@ -1,0 +1,85 @@
+.mainTitle{
+    color: darksalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner{
+    width: 100rem;
+    height: 400px;
+    object-fit: cover;
+}
+
+.subMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    background-color: olive;
+    text-align: center;
+    font-style: italic;
+    border-style: double;
+    border-color: azure;
+    border-width: 10px;
+}
+
+.box2{
+    width: 500px;
+    height: 500px;
+    background-color: olive;
+    text-align: center;
+    font-style: italic;
+    border-style: double;
+    border-color: azure;
+    border-width: 10px;
+}
+
+.animals{
+    width: 400px;
+    height: 356px;
+    overflow: hidden;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    background-color: darkcyan;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+}
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:864px){
+    .subMenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 1rem;
+        flex-direction: column;
+    }.mainTitle{
+        color: darksalmon;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+}

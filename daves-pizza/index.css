@@ -1,0 +1,47 @@
+.banner{
+    width: 100vw;
+    height: 256px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.subMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+
+}
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    border-radius: 5%;
+    text-align: center;
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(133, 195, 41);
+    border-radius: 5%;
+    text-align: center;
+}
+.kid{
+    width: 256px;
+    height: 256px;
+    border-radius: 5%;
+}
